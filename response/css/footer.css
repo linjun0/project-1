@@ -1,0 +1,35 @@
+.my-foot{
+    margin:0 auto;
+    width:100%;
+}
+.my-foot>.foot-intra{
+    width:90%;
+    padding-top:30px;
+    margin:0 auto;
+}
+.my-foot ul.intra-menu{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.intra-menu h3{
+    font-size:1.5em;
+}
+.intra-menu>li:nth-child(3){
+    padding-top:30px;
+}
+.my-foot li{
+    list-style:none;
+}
+.my-foot ul{
+   padding:0;
+   
+}
+.my-foot ul.intra-list>li{
+    padding:3px;
+}
+.intra-list a{
+   color:#767c84;
+}
+
+

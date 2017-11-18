@@ -1,0 +1,97 @@
+/*******************************userissue部分*************************/
+.useissue .useh{
+    padding:15px 15px;
+    margin-right:17px;
+    margin-left:9px;
+}
+.useissue .useh-left{
+    padding:100px 10px;
+}
+.useissue .containimg{
+    width:100%;
+}
+.useissue .useh .containimg>img{
+    width:100%;
+}
+.useissue .form-group{
+    display:inline-block;
+    padding:5px 10px;
+    margin:20px 30%;
+}
+
+.useissue .form-group button{
+    width:190px;
+    height:44px;
+    background-color:#00aeee;
+    border:0;
+    color:#fff;
+    font-size:16px;
+}
+/************************* logo play 部分 ***********************************/
+.my-slogan{
+    margin:0 auto;
+    text-align: center;
+    width:100%;
+}
+.my-slogan .slogan{
+    margin:50px 20px;
+}
+.my-slogan .clients-logo img{
+    filter: grayscale(100%);
+    opacity: .5;
+    transition:all .5s linear;
+}
+.my-slogan .clients-logo img:hover{
+    opacity:1;
+    filter: grayscale(0);
+}
+.my-slogan .my-play{
+    margin:100px 0;
+    width:100%;
+}
+.my-play .container{
+    position:relative;
+    width:100%;
+    background-image:url(../img/background.png) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.my-play .ctrl{
+    position:absolute;
+    left:47%;
+    top:47%;
+    /*display:none;*/
+}
+.my-play .ctrl img{
+    width:100px;
+    height:100px;
+}
+
+.my-play h2,.my-play video{
+    margin:30px 0;
+}
+
+
+/************************************* my-intra部分 ********************************/
+.my-intra{
+    text-align:center;
+    width:100%;
+}
+.my-intra .myintra-title{
+    margin:50px 0;
+}
+.my-intra .row{
+    margin:30px 40px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

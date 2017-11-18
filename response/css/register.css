@@ -1,0 +1,49 @@
+
+html{
+    width:100%;
+    min-height:600px;
+    background-image:url("../img/background.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.my-register>h1{
+    margin:15px auto ;
+    text-align: center;
+    color:#fff;
+}
+
+.my-register .char-form{
+   margin:0 auto ;
+   width:270px;
+}
+.my-register .char-form>div{
+    width:270px;
+    margin:auto;
+    /*display:flex;
+   justify-content:space-between;*/
+}
+.char-form input{
+   box-sizing:border-box;
+   border:1px solid #aaa;
+   width:100%;
+   height:30px;
+   padding:5px;
+}
+.char-form span{
+    font-size:14px;
+    color:#f00;
+    line-height:30px;
+}
+.char-form button{
+    background:#00aeee;
+    margin:auto;
+    width:100%;
+    height:45px;
+    color:#fff;
+    border:0;
+}
+
+
+
+

@@ -1,0 +1,40 @@
+.my-floor{
+    width:100%;
+}
+.my-floor .row{
+    width:97%;
+    margin:50px 20px;
+}
+
+.my-floor .con-des{
+    display:inline-block;
+}
+.my-floor .pic{
+    padding:25px 0;
+    margin-right:20px;
+}
+.my-floor .pic img{
+    width:100%;
+    box-shadow: 7px 5px 20px .1px #d7d7d7;
+}
+.floor6 .pic img{
+    box-shadow: 0 0 0 0;
+}
+.my-floor .contain{
+    padding:30px 45px;
+    margin-left:30px;
+}
+.my-floor .contain h1{
+    margin:45px 0;
+
+}
+.my-floor .contain p,.my-floor .contain span{
+    font-size:15px;
+}
+.my-floor .con-des{
+    padding-top:45px;
+}
+
+
+
+

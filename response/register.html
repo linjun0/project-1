@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/register.css">
+ </head>
+ <body>
+    <div class="my-register">	
+	   <h1>注册</h1>  
+	  <form class="char-form">
+		<div><input type="text" class="char-uname" placeholder="用户名"> <span class="cuname-span"></span></div><br>
+        <div><input type="password" class="char-upwd" placeholder="密码"> <span class="cupwd-span"></span></div><br>
+        <div><input type="password" class="char-cpwd" placeholder="确认密码"><span class="cpwd-span"></span></div><br>
+        <div><input type="email" class="char-email" placeholder="邮箱"> <span class="email-span"></span></div><br>
+		<div><input type="phone" class="char-phone" placeholder="联系电话"> <span class="phone-span"></span></div><br>
+		<div><p>性别 ：
+		   <select name="gender" id="gen">
+			   <option value="1">男</option>
+			   <option value="0">女</option>
+			</select>
+		 </p>
+		 </div>
+        <div><button type="button" class="register">提交</button></div>
+	  </form>
+    </div>
+     <script src="js/jquery-1.11.3.js"></script>	 
+	 <script src="js/respond.min.js"></script>	
+	 <script src="js/register.js"></script>	
+ </body>
+</html>
