@@ -1,0 +1,271 @@
+*{
+box-sizing:border-box;
+}
+body{
+  margin:0;
+  
+}
+/*************************楼层标题***********************/
+.floor:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.floor-head{
+  width:1282px;
+  height:50px;
+  padding-bottom:20px;
+}
+.floor{
+  margin-bottom:30px;
+  margin-top:10px;
+}
+.floorh-left{
+  float:left;
+ font-size:34px;
+}
+.floorh-left i{
+  font-size:20px;
+  color:#999;
+}
+
+.floorh-right,.floorh-right li{
+  float:right;
+}
+.floorh-right a{
+  padding:0px 15px 0 15px;
+}
+.floorh-right a{
+ border-right:1px solid #444;
+}
+/**********************楼层主体******************/
+.floor{background-color:#f5f5f5;position:relative;}
+.floor-left,.floor-center,{
+  float:left;
+}
+
+/***********************楼层左边*****************/
+.floor-left{
+  width:268px;
+  height:400px;
+  background-color:#fc7575;
+  padding-top:40px;
+  padding-left:15px;
+  position:relative;
+}
+.over{
+  background-color:#f5f5f5;
+  color:#000 !important;
+}
+.floorl-school{
+  margin-bottom:30px;
+}
+.floorl-school span{
+  float:left;
+  font-size:16px;
+  font-weight:10;
+}
+.floorl-school i{
+  float:right;
+  font-size:14px;
+}
+.floorl-school li{
+  width:253px;
+  height:44px;
+  display:block;
+  border:1px solid #fff;
+  border-right:0 ;
+  margin:10px 0 10px 0;
+  padding:10px 20px;
+  color:#fff;
+}
+.floorl-intro a{
+  color:#fff;
+  
+  margin:10px 5px;;
+}
+.floorl-more{
+  width:268px;
+  height:46px;
+  padding:20px;
+  background-color:#fba2a2;
+  
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+.floorl-more a{
+  color:#fff;
+  float:right;
+}
+
+/******************楼层中间********************/
+.floor-center{
+  width:695px;
+  height:409px;
+  padding:32px 20px 32px 18px;
+  position:absolute;
+  top:0px;
+  left:270px;
+  
+}
+
+.floorc-pic{
+  float:left;
+  margin:0px 16px;
+  background-color:#fff;
+  padding:10px;
+}
+
+.floorc-pic dt{
+  width:264px;
+  height:175px;
+/*  padding:13px 13px 5px 13px;*/
+}
+.floorc-pic dt img{width:100%;}
+.floor-center dd{
+  width:264px;
+  height:165px;
+  padding:5px 19px 19px 19px;
+  
+}
+.floorc-pic a{
+  font-size:18px;
+}
+.floorc-pic dd>a{
+  font-size:18px;
+  display:block;
+  margin:10px 2px;
+}
+.floorc-pic dd>p{
+  font-size:14px;
+  display:block;
+  margin-bottom:20px;
+}
+.floorc-pic dd>span{
+  text-align:center;
+  padding:0px 10px;
+  margin:0 10px;
+  border-top:1px solid #dedede;
+  border-bottom:1px solid #dedede;
+  background-color:#fff;
+  display:block;
+  line-height:30px;
+  position:relative;
+}
+.floorc-pic dd>span a{
+  font-size:14px;
+}
+.floorc-pic dd>span i{
+  position:absolute;
+  top:-1px;
+  left:-13px;
+  width:33px;
+  height:33px;
+  
+  border-radius:50%;
+}
+.floorc-pic dd>span i:first-child{
+  position:absolute;
+  top:-1px;
+  left:-13px;
+  border-left:1px solid #dedede;
+}
+.floorc-pic dd>span i:nth-child(2){
+  position:absolute;
+  top:-1px;
+  left:186px;
+  border-right:1px solid #dedede;
+}
+
+/******************楼层右边*******************/
+.floor-right{
+  width:314px;
+  height:389px;
+  padding:32px 0px;
+  position:absolute;
+  top:0px;
+  right:20px;
+ 
+}
+.floor-right h3{
+  margin-left:32px;
+  font-size:22px;
+}
+
+.floor-apart{
+  width:314px;
+  height:48px;
+  margin:7px 5px;
+}
+.floor-apart dt{
+  margin:12px 0 12px 31px;
+  background-color:#fc7575;
+  width:88px;
+  height:24px;
+  text-align:center;
+  font-size:14px;
+  position:relative;
+}
+.floor-apart dt i{
+  position:absolute;
+  content:"";
+  left:-18px;
+  top:3px;
+  width:0;
+  height:0;
+  border:10px solid transparent;
+  border-right-color:#fc7575;
+}
+.floor-apart dt a{
+  color:#fff;
+}
+.floor-apart dt,.floor-apart dd{
+  float:left;
+}
+.floor-apart dd{
+/*  text-align:center;*/
+  margin-left:21px;
+  display:block;
+}
+.floor-apart dd a{
+font-size:14px;
+/*text-align:center;*/
+}
+.floor-apart dd>span{
+/*text-align:left;*/
+font-size:12px;
+}
+
+/*********************楼层右边***********************/
+
+.floor2r{
+  font-size:15px;
+}
+.floor2r>li{
+  margin:8px 30px 8px 2px; 
+  width:288px;
+  height:32px;
+}
+.floor2r>li>a{
+   float:left;
+}
+.floor2r>li>span:last-child{
+  float:right;
+}
+.floor2r>li>span:first-child{
+  width:18px;
+  height:18px;
+  font-size:14px;
+  
+  text-align:center;
+  color:#fff;
+  margin-right:10px;
+  float:left;
+}
+.floor2r1{background-color:#f00;}
+.floor2r2{background-color:rgb(239, 116, 16);}
+.floor2r3{background-color:rgb(240, 164, 17);}
+.floor2r4{background-color:#bcbcbc;}
+ 
+

@@ -1,0 +1,173 @@
+
+.footer_nav{
+  width:1282px;
+  height:225px;
+  border:1px #dedede solid;
+  margin:1px;
+  padding:19px;
+  margin:0 auto;
+}
+
+.footer_nav h2{
+  font-size:24px;
+  padding-left:15px;
+  border-left:3px #f96767 solid;
+}
+
+.link{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+
+}
+
+.link>a{
+  float:left;
+  display:block;
+  padding:0 10px 10px;
+  text-decoration:none;
+  color:#444;
+  font-size:100%;
+}
+
+
+.footer_end{
+  background-color:#404a50;
+  width:1282px;
+  height:213px;
+  margin:auto;
+  margin:0;
+  padding:28px 0;
+  position:relative;
+}
+
+.footer_end_11{  
+  width:330px;
+  height:70px;
+  padding-right:32px;
+  border-right:1px #666 dashed;
+  position:absolute;
+  left:190px;
+}
+
+.fe11_left{
+  position:absolute;
+  left:-30px;
+}
+.fe11_right{
+  width:188px;
+  position:absolute;
+  right:30px;
+}
+.fe11_right p{
+  font-size:14px;
+  color:#666;
+}
+.footer_end_12{ 
+  position:absolute;
+  left:600px;
+  width:685px;
+  height:70px;
+  
+}
+.fe12_up{
+  width:660px;
+  display:flex;
+  justify-content:space_between;
+}
+.fe12_up a{
+  color:#888;
+  text-decoration:none;
+  margin-left:10px;
+}
+.fe12_up a:hover{
+  color:#fff;
+  cursor:pointer;
+}
+
+.fe12_down{
+  width:660px;
+  margin:10px 20px;
+  height:24px;
+  line-height:24px;
+}
+ 
+.fe12_down span{
+  color:#888;
+  height:24px;
+  margin:0 10px 0 10px;
+  line-height:24px;
+  padding-right:10px;
+}
+.fe12_down .span2{
+  margin-left:40px;
+}
+.fe12_down img{
+/*  margin:0 10px 0 10px;*/
+  vertical-align:middle;
+  padding:10px;
+}
+
+/******************************/
+
+.line{
+  width:1282px;
+  height:0;
+  border:1px #888 solid;
+  position:absolute;
+  top:120px;
+  margin:0;
+  padding:0;
+}
+
+.footer_end_21{
+  width:1282px;
+  height:73px;
+  margin:auto;
+  position:absolute;
+  top:150px;
+  
+  
+}
+.footer_end_21 p{
+  height:24px;
+  color:#777;
+  text-align:center;
+  font-size:12px;
+  }
+.fe21{
+  margin:0 auto;
+  width:360px;
+  
+}
+
+.fe21_div{ 
+  width:105px;
+  height:32px;
+  border:2px #666 solid;
+  float:left;
+  margin:2px 3px;
+  position:relative;
+}
+
+.fe21_div a{
+  color:#ccc;
+  display:block;
+  
+  width:62px;  
+  position:absolute;
+  right:1px;
+  top:1px;
+  line-height:14px;
+  text-decoration:none;
+  font-size:11px;
+  
+  box-sizing:border-box;
+  
+}
+
+
+
+
+
+
