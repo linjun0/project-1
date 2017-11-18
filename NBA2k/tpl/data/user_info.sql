@@ -1,0 +1,7 @@
+use nba;
+DROP TABLE IF EXISTS user_info;
+CREATE TABLE user_info(
+uid INT PRIMARY KEY AUTO_INCREMENT,
+uname VARCHAR(100),
+upwd VARCHAR(100)
+);

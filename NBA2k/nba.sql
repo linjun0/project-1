@@ -1,0 +1,15 @@
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS nba;
+CREATE DATABASE nba CHARSET=UTF8;
+USE nba;
+
+/**用户信息表**/
+CREATE TABLE t_login(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  uname VARCHAR(32),
+  upwd VARCHAR(32),
+  uemail VARCHAR(100)
+);
+INSERT INTO t_login VALUES
+(10, 'wang', '123456','1148586772@qq.com'),
+(20, 'panchen', '456789','302891633@qq.com');

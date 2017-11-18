@@ -1,0 +1,32 @@
+$(function(){
+    //2:为登录信息按钮绑定点击事件
+    $("#bt-login").click(function(){
+        //3:获取用户名和密码
+        var u = $("#uname").val();
+        var p = $("#upwd").val();
+        //4:发送ajax请求
+        $.ajax({
+            type:'GET',
+            url:'data/login_do.php',
+            data:{uname:u,upwd:p},
+            success:function(data){
+                var rs = parseInt(data);
+                if(rs<0){
+                    $("p.alert").html("用户名或密码有误");
+                }else{
+                    $(".cd-user-modal").hide();
+                    document.cookie = 'uid='+data;
+                    document.cookie = 'uname='+u;
+                }
+            },
+            error:function(){
+                alert("响应消息有错！请检查网络");
+            }
+
+        });
+        //5:成功隐藏登录框    欢迎回来??
+        //6:将用户名和密码保存全局变量中
+        //7:如果请求失败提示
+    });
+
+});

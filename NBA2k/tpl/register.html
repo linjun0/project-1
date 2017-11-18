@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>NBA商店</title>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+    <link rel="shortcut icon" href="img/favicon.jpg"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="header" class="height">
+        <ul class="height">
+            <li style="border-right: none"><a href="">在线客服</a></li>
+            <li><a href=""><img src="img/cart-icon2.png" alt="" style="width: 16px"/> <span style="color: red">0</span></a></li>
+            <li><a href="">我的账户</a></li>
+            <li><a href="" class="log_reg">登录/注册</a></li>
+        </ul>
+        <p class="height">
+            <img src="img/logo_cn.png" alt=""/>
+            <a class="block right" style="background-color: white"><img src="img/search-icon.png" alt=""/></a>
+            <input class="block right" type="text" placeholder="美国同款助威T恤"/>
+        </p>
+    </div>
+    <nav class="height">
+        <ul id="nav-list">
+            <li><a href="#">选择球队</a>
+                <ul id="team" class="drop-list">
+                    <li class="left block">
+                        <ol>
+                            <li style="color:#00559A;font-weight: bold">东部联盟</li>
+                            <li><a href="#">黄蜂</a></li>
+                            <li><a href="#">骑士</a></li>
+                            <li><a href="#">猛龙</a></li>
+                        </ol>
+                    </li>
+                    <li class="right block">
+                        <ol>
+                            <li style="color:#00559A;font-weight: bold">西部联盟</li>
+                            <li><a href="#">马刺</a></li>
+                            <li><a href="#">勇士</a></li>
+                            <li><a href="#">湖人</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">选择球员</a>
+                <ul class="drop-list">
+                    <li>库里</li>
+                    <li>威少</li>
+                    <li>哈登</li>
+                    <li>科比</li>
+                    <li>詹姆斯</li>
+                </ul>
+            </li>
+            <li><a href="#">定制秋衣</a></li>
+            <li><a href="#">所有球衣</a></li>
+            <li><a href="#">服饰</a></li>
+            <li><a href="#">T恤</a>
+                <ul class="drop-list">
+                    <li>T恤</li>
+                </ul>
+            </li>
+            <li><a href="#">女子</a>
+                <ul class="drop-list">
+                    <li>T恤</li>
+                    <li>篮球</li>
+                    <li>衣服</li>
+                </ul>
+            </li>
+            <li class="img-arrow-down"><a href="#">儿童</a>
+                <ul class="drop-list">
+                    <li>T恤</li>
+                    <li>外套</li>
+                    <li>裤子</li>
+                    <li>秋衣</li>
+                    <li>篮球</li>
+                </ul>
+            </li>
+            <li><a href="#">配件</a>
+                <ul class="drop-list">
+                    <li>钥匙</li>
+                    <li>手环</li>
+                    <li>毛巾</li>
+                    <li>护具</li>
+                </ul>
+            </li>
+            <li><a href="#">限量商品</a>
+                <ul class="drop-list">
+                    <li>乔丹球衣</li>
+                    <li>签名产品</li>
+                    <li>玩偶</li>
+                </ul>
+            </li>
+        </ul>
+        <p></p>
+    </nav>
+    <div id="main" class="height">
+         <h2>欢迎登录NBA Store.</h2>
+         <div class="row">
+               <div class="log-body-left">
+                    <div class="log-subTitle">
+                        <p class="log-subTitleBlue">已注册用户</p>
+                        <p>已有NBA球迷圈帐号，请使用注册手机号码登录<a class="login-email none">手机登录</a></p>
+                        <p>首次登录即可获得9折优惠券</p>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="form-group clear">
+                                <label class="control-label">
+                                    <span>* 用户名称 <br/>(NBA账号)</span>
+                                </label>
+                                <div class="form-input">
+                                    <input id="mobileloginName" type="text">
+                                    <span id="mobileloginName-error"></span>
+                                </div>
+                            </div>
+                            <div class="form-group clear">
+                                <label class="control-label">
+                                    <span>* 密码</span>
+                                </label>
+                                <div class="form-input">
+                                    <input id="mobileloginPassword" type="password">
+						            <span id="mobileloginPassword-error" style="color:red"></span>
+                                </div>
+                            </div>
+                            <div class="form-group clear">
+                                <div class="log-rememberMe left">
+                                    <input name="isRememberMe" value="1" id="isRememberMe" type="checkbox">
+                                    记住用户名
+                                </div>
+                            </div>
+                            <div class="form-group log-logIn clear">
+                                <input type="button" class="btn" id="mobileloginBtn" value="登录" style="cursor: pointer">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+               <form name="register">
+                   <div class="log-body-right">
+                        <div class="log-subTitle">
+                            <p class="log-subTitleRed">新用户注册(创建NBA球迷圈帐号)</p>
+                            <p>新用户首次注册，即可获得9折优惠券</p>
+                        </div>
+                        <div class="form-group clear">
+                            <label class="control-label">
+                                <span class="log-hoshi">*</span>
+                                <span>用户名称</span>
+                            </label>
+                            <div class="form-input">
+                                <input id="registerName" name="registerName" maxlength="100" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group log-spTitle-vc clear">
+                            <label class="control-label">
+                                <span>* 验证码</span>
+                            </label>
+                            <div class="form-input">
+                                <input id="mobileverificationCode1" name="randomCode" maxlength="4" type="text">
+                                <canvas id="canvas" width="120" height="40" style="vertical-align: middle"></canvas>
+                                <a href="#" id="changeImg" style="color: black">看不清，换一张</a><br/>
+                                <span class="block" id="registerCode-error" style="line-height: 14px;padding-left: 200px"></span>
+                            </div>
+                        </div>
+                        <div class="form-group clear">
+                            <label class="control-label">
+                                <span class="log-hoshi">*</span>
+                                <span>密码</span>
+                            </label>
+                            <div class="form-input">
+                                <input placeholder="请输入6-16位的字母或者数字" id="registerPassword" name="registerPassword" maxlength="16" type="password">
+                            </div>
+                        </div>
+                        <div class="form-group clear">
+                            <label class="control-label control-label-w140">
+                                <span class="log-hoshi">*</span>
+                                <span>确认密码</span>
+                            </label>
+                            <div class="form-input">
+                                <input placeholder="请输入6-16位的字母或者数字" id="confirmPassword" type="password">
+                            </div>
+                        </div>
+                        <div class="form-group form-group-w260 clear">
+                             <div class="log-mesageChoice log-termsofuse on">
+                                <input type="checkbox" name="readRule" id="readRule" value="1"/>
+                                我已阅读并遵守<a href="">使用条款</a> 、<a href="">隐私政策</a>和<a href=""> 球迷圈条款</a>
+                             </div>
+                        </div>
+                        <div class="form-group log-logIn clear">
+                            <input class="btn" type="button" id="registerBtn" value="注册" style="cursor: pointer">
+                        </div>
+                    </div>
+               </form>
+            </div>
+    </div>
+    <div id="footer">
+        <div class="footer-new-content height">
+            <div class="left" style="width: 25%">
+                <div class="footer-logo footer-logo-tw">
+                    <img src="//static.nbastore.cn/images/common/logo-footer-tw.png?2017052797788888" style="height: 34px;width: 156px">
+                </div>
+            </div>
+            <div class="left sec" style="width: 25%">
+                <p class="footer-user none-xs">
+                   <a href="register.html">登录/注册</a>
+                </p>
+                <p class="footer-user">
+                    <a href="javascript:void(0);" class="checktellus">说出你想要的</a>
+                </p>
+                <p class="footer-user none-xs">
+                    <a href="/findus/storeLocator.htm">门店位置</a>
+                </p>
+                <p class="footer-user none-xs">
+                    <a href="/findus/faq.htm">帮助</a>
+                </p>
+            </div>
+            <div class="left third" style="width: 25%">
+                <div style="color: white" >
+                     扫码关注官方微信
+                    <a class="block" style="margin-top: 12px" >
+                        <img src="//static.nbastore.cn/images/common/footer-qrCode-btn.jpg?2017052797788888">
+                    </a>
+                    <div class="footer-qrCode-img">
+                        <img src="//static.nbastore.cn/images/common/footer-wechat-qrCode.jpg?2017052797788888">
+                    </div>
+                </div>
+                <div style="color: white;margin-top: 10px">
+                    扫码下载NBA官方APP
+                    <a class="block" style="margin-top: 12px">
+                        <img src="//static.nbastore.cn/images/common/footer-qrCode-btn.jpg?2017052797788888">
+                    </a>
+                    <div class="footer-qrCode-img">
+                        <img src="//static.nbastore.cn/images/common/footer-app-qrCode.png?2017052797788888">
+                    </div>
+                </div>
+            </div>
+            <div class="left forth" style="width: 25%">
+                <p class="footer-help-title">
+                    联系我们
+                </p>
+                <p class="footer-help">
+                    <i class="icon icon-footer-mail"></i>
+                    <a href="mailto:service@nbastore.cn" style="color:#ffffff;text-decoration:none;">service@nbastore.cn</a>
+                </p>
+                <p class="footer-help">
+                    <i class="icon icon-footer-phone"></i>
+                    400-0066-802（9:00 – 22:00）
+                </p>
+                <p class="footer-help" id="livePid">
+                    <i class="icon icon-footer-sevice"></i>
+                    <a href="http://chat8.live800.com/live800/chatClient/chatbox.jsp?companyID=155503&amp;configID=149199&amp;jid=3547095935&amp;delayload=1&amp;renderid=renderidlivePid" target="_blank">
+                        在线客服（9:00 – 22:00）</a>
+                </p>
+                <p class="footer-help">
+                    <i class="icon icon-footer-weibo"></i>
+                    <a href="http://weibo.com/nbastorechina" target="_blank">NBASTORE官方微博</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-beian" style="padding-bottom: 0;height: 43px;line-height: 43px">
+            <p class="block left" style="color: white;font-size: 12px;height: 40px;line-height: 40px">沪ICP备 14013659-2号</p>
+            <a href="/clause/termsofuse.htm" class="footer-termsofuse">使用条款</a>
+            <a href="/clause/privacy.htm" class="footer-privacypolicy">隐私政策</a>
+            <a href="/findus/faq.htm?type=5" class="footer-returnpolicy">退换货政策</a>
+        </div>
+        <div style="width:100%; padding: 0;">
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010802001463" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                <img src="//static.nbastore.cn/images/icon-b.png" style="float:left;">
+                <p style="float:left;height:20px;font-size:12px;line-height:20px;margin: 0px 0px 3px 5px; color:#fff;">沪公网安备 31010802001463号</p>
+            </a>
+        </div>
+        <div class="footer-copyright">
+                <p style="color: #fff;font-size: 12px;margin: 0;padding-bottom: 18px;">©2017 NBA Media Ventures, LLC.保留所有权利。NBAStore.com.cn/NBAStore.cn上的任何部分都不得以任何形式被复制、再传播，或篡改。</p>
+                <p style="color: #fff;font-size: 12px;margin: 0;padding-bottom: 18px;">欢迎您使用NBA中国官方旗舰店网站！ NBA中国官方旗舰店网站由NBA体育文化发展(北京)有限责任公司委托上海枫泊电子商务有限公司进行运营和维护。</p>
+        </div>
+    </div>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

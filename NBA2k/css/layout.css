@@ -1,0 +1,1081 @@
+body{
+    overflow: scroll;
+    width: 1349px;
+    background-color: #D7D7D7;
+}
+.playOff{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    border:1px solid #b2dba1;
+}
+.header{
+    width: 100%;
+    height:120px;
+    background-color:#005DBC ;
+}
+/*页头样式*/
+.header-main{
+    width: 1200px;
+    height: 80px;
+    margin: 0 74.5px;
+}
+.header-logo{
+    height: 80px;
+    line-height: 80px;
+    background: url("../img/logo-new01.png") no-repeat 0 9px;
+}
+.header-logo img{
+    vertical-align:middle;
+}
+.link-china{
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+.link-NBA{
+    color: #00AEFF;
+    font-size: 28px;
+}
+.header-button>li{
+    margin-top: 9px;
+    display:inline-block;
+}
+.NBASTORE{
+    position: relative;
+}
+#store-list{
+    width: 90px;
+    height: 0px;
+    top:20px;
+    left:0;
+    z-index: 50;
+    position: absolute;
+    background-color: #002F50;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.drop-list{
+    background-color: #002F50;
+    position: absolute;
+    display: none;
+    width: 180px;
+    left:0;
+    top: 40px;
+    padding-left: 15px;
+    z-index: 50;
+}
+#nav-list .drop-list>li{
+    width: 180px;
+    display: block;
+}
+.NBASTORE ul li{
+    height: 40px;
+    line-height: 40px;
+}
+.NBASTORE ul li a{
+    padding-left: 5px;
+    width: 85px;
+    font-size: 14px;
+    display: block;
+}
+.NBASTORE ul li a:hover{
+    background-color:#2464B5;
+}
+.nav{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 74.5px;
+}
+.nav-left>ul{
+    margin-left: 40px;
+}
+.nav-left>ul>li{
+    width: 76px;
+    display: inline-block;
+    position: relative;
+}
+.img-arrow-down{
+    background: url("../img/icon_arrow_down_blue.png") 50% 50% no-repeat;
+}
+div.nav-right img{
+    vertical-align: middle;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+#team{
+    display: none;
+    width: 1198px;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    top:40px;
+    left: -375px;
+    z-index: 100;
+}
+#team>li{
+    display: block;
+    width: 50%;
+}
+#team ol:first-child li:nth-child(2n+3){
+    background:#F5F5F5
+}
+#team ol li:nth-child(2n){
+    background:#FFF;
+}
+#team ol span{
+    display: block;
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+#team a{
+    display: inline-block;
+    color: black;
+    width: 32%;
+}
+.nav-right{
+    position: relative;
+    left: 10px;
+}
+.user-info{
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #002F50;
+    top: 35px;
+    left: -60px;
+    height: 80px;
+    width: 160px;
+    font-size: 12px;
+}
+.login-button{
+    color: white;
+    border: none;
+    height: 26px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 140px;
+    background-color: #0079CD;
+}
+.search-info{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    top: 5px;
+    left:-195px;
+    z-index: -1;
+    opacity: 0;
+    transition: all 2s ;
+}
+.search-info>a{
+    left: 5px;
+    width: 35px;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search-info>a:hover{
+    cursor: pointer;
+}
+.search-info>input{
+    margin-left: 0;
+    width: 155px;
+    height: 30px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    outline: none;
+    border: none;
+}
+/*第二页头*/
+#team2{
+    line-height: 40px;
+    display: none;
+    background: white;
+    width: 1198px;
+    border: 1px solid black;
+    position: absolute;
+    text-align: center;
+    top:40px;
+    left: -445px;
+    z-index: 120;
+}
+#team2 ol:first-child li:nth-child(2n+3){
+    background:#F5F5F5
+}
+#team2 ol li:nth-child(2n){
+    background:#FFF;
+}
+#team2>li{
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+#team2 ol{
+    width: 100%;
+}
+#team2 ol li{
+    width: 100%;
+    clear: left;
+    text-align: center;
+}
+#team2 ol span{
+    display: block;
+    float: left;
+    width: 32%;
+    text-align: center;
+}
+#team2 a{
+    text-align: center;
+    display: inline-block;
+    color: black;
+    width: 32%;
+}
+.header2{
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+    background-color:#005DBC ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 80;
+    white-space: nowrap;
+}
+#nav-list2{
+    margin-left: 80px;
+}
+.logo2{
+    height: 50px;
+    vertical-align:middle;
+}
+#nav-list2 .drop-list>li{
+    width: 180px;
+    display: block;
+}
+#nav-list2>li{
+    width: 70px;
+}
+#nav-list2>li:first-child{
+    width: 120px;
+}
+.nav-right2{
+    position: relative;
+    left: 10px;
+}
+.nav-right2 img{
+    position: absolute;
+    top: 20px;
+    margin-left: 50px;
+}
+.user-info2{
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #002F50;
+    top: 50px;
+    left: 1050px;
+    height: 100px;
+    width: 160px;
+    font-size: 12px;
+}
+#main{
+    width: 1220px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 20px;
+    /*height: 3000px;*/
+}
+#main .game-nav{
+    background-color: #EEEEEE;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    height: 135px;
+    border-radius: 2px;
+    border: 1px solid #DBDBDB;
+    box-shadow: 2px 4px 4px gray;
+}
+#main .game-nav .gnl{
+    height: 120px;
+    width: 120px;
+    background-color: #2464B5;
+    margin-top: 12px;
+    text-align: center;
+    color: white;
+}
+#main .game-nav .gnl .fl{
+    margin: auto;
+    margin-top: 5px;
+    height: 50px;
+    line-height: 50px;
+    width: 110px;
+    background-color: #0079CD;
+}
+#main .game-nav .gnl .fl span{
+    width: 70px;
+    height: 50px;
+    line-height: 25px;
+}
+#main .game-nav .gnl .fl a{
+    height: 50px;
+    width: 20px;
+}
+.gnl .game-num{
+    width: 106px;
+    height:20px ;
+    margin: 5px 7px;
+}
+.allgames{
+    background-color: #0079CD;
+    margin: auto;
+    width: 110px;
+    height: 28px;
+}
+.nav_details{
+    margin-top: 12px;
+}
+.nav_details>ul>li{
+    position: relative;
+}
+.nav_details ol{
+    width: 228px;
+    height:98px;
+    background-color: white;
+    border: 1px solid silver;
+}
+.nav_details ol a{
+    color: black;
+}
+.nav_details>a{
+    width: 18px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #E5E5E5;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.nav_details>ul{
+    width: 1000px;
+    height: 140px;
+    margin-left: 10px;
+}
+.nav_details>ul>li{
+    width: 228px;
+}
+.first_li{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+.second_li{
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 44px;
+}
+.left_side{
+    padding-left: 60px ;
+    background-image: url("../img/teamlogo.png");
+    background-position: -7px -2470px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+.right_side{
+    padding-right: 50px ;
+    margin-left: 5px;
+    background-image: url("../img/teamlogo.png");
+    background-position: 25px -1680px;
+    background-repeat: no-repeat;
+}
+.third_li a{
+    font-size: 12px;
+    padding: 0 22px 0 30px;
+}
+.third_li a:nth-child(2){
+    color: gray;
+}
+.forth_li a{
+    font-size: 12px;
+    padding-left:28px;
+}
+.forth_li a:nth-child(2){
+    color: gray;
+}
+.fifth_li{
+    border: 1px solid silver;
+    background-color: white;
+    height: 22px;
+    width: 228px;
+}
+.model{
+    text-align: center;
+    height: 100px;
+    width: 229px;
+    background-color:rgba(79,131,195,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.model a{
+    font-size: 13px;
+    line-height: 24px;
+}
+.news{
+    margin: auto;
+}
+.ad-news{
+    width: 510px;
+    margin-left: 10px;
+    height: 360px;
+}
+.animate{
+    width: 510px;
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+}
+.animate>ul{
+    width: 2550px;
+    position: relative;
+    transition: all 0.5s linear;
+    left: 0px;
+    margin: 0;
+}
+.animate>ul>li{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    outline-width: 0px;
+}
+.animate>ul>li h3{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+.animate img{
+    width: 510px;
+    height: 330px;
+}
+.animate>span{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    cursor: pointer;
+}
+.animate>span a{
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #979797;
+}
+.animate>span a.current{
+    background-color: white;
+}
+.prev{
+    position: absolute;
+    left:2%;
+    top: 40%;
+    display: none;
+}
+.prev img{
+    height: 39px;
+    width: 30px;
+}
+.next{
+    position: absolute;
+    left:92%;
+    top: 40%;
+    display: none;
+}
+.next img{
+    height: 39px;
+    width: 30px;
+}
+.list-news{
+    height: 330px;
+    width: 360px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.list-news img{
+    height: 67px;
+    width: 92px;
+    vertical-align: middle;
+}
+.list-news li{
+    height: 77px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+ }
+.list-news li:last-child{
+    height: 77px;
+    border-bottom: none;
+    padding-top: 10px;
+}
+.list-news span{
+    display: inline-block;
+    height: 87px;
+    width: 258px;
+    padding-left: 10px;
+}
+.list-news a{
+    color: black;
+    font-size: 14px;
+}
+.list-news a:hover{
+    color: blue;
+    font-size: 14px;
+}
+.impnews-fresh{
+    width: 300px;
+    height: 290px;
+    margin-right: 10px;
+}
+.impnews-title{
+    width: 100%;
+    background: url("../img/impnews-bg_838980.png") no-repeat;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding: 0 10px;
+}
+.impnews-title img{
+    vertical-align: text-bottom;
+}
+.impnews-fresh li{
+    height: 29px;
+    line-height: 29px;
+    background: #FAFAFA;
+}
+.impnews-fresh>ul>li>a{
+    color: black;
+    font-size: 13px;
+}
+.impnews-fresh>ul>li>a:hover{
+    color: blue;
+}
+#btn{
+    margin-right: 20px;
+}
+.news-tab{
+    /*height: 740px;*/
+    width: 1200px;
+    padding-left: 10px;
+}
+.news-tab-left{
+    width: 880px;
+    height: 740px;
+}
+.news-tab-title{
+    border-bottom:1px solid #E5E5E5 ;
+    height: 39px;
+    line-height: 37px;
+}
+.refresh{
+    height: 30px;
+}
+.news-tab-title a:first-child{
+    color: #2464B5;
+    font-size: 22px;
+    float: left;
+    border-bottom: 2px solid #E11647;
+}
+.news-tab-title a:last-child{
+    font-size: 16px;
+    color: #2464B5;
+    float: right;
+}
+.news-tab-list>li{
+    position: relative;
+}
+.refresh>a{
+    color: #2464B5;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.refresh>a img{
+    vertical-align: text-bottom;
+}
+
+.news-tab-left>ul>li:first-child>a{
+    display: block;
+    width: 435px;
+    height: 310px;
+    overflow: hidden;
+}
+.news-tab-left>ul>li:first-child>a>img{
+    width: 435px;
+    transition: all 1s;
+}
+.news-tab-list-firstLi{
+    height: 310px;
+    margin-bottom: 10px;
+}
+.news-tab-list-firstLi>span:nth-child(2){
+     position: absolute;
+     left: 0;
+     top: 90%;
+     padding-left: 10px;
+     color: white;
+     font-weight: bold;
+ }
+.news-tab-list-firstLi>span:nth-child(2) img{
+    vertical-align: bottom;
+}
+.news-tab-list-firstLi>span:nth-child(4){
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+.news-tab-list-firstLi>span:nth-child(4) img{
+    vertical-align: bottom;
+}
+.news-tab-list-secondLi,.news-tab-list-secondLi ol{
+    height: 305px;
+}
+
+.news-tab-list-secondLi>ol>li{
+    float: left;
+    width: 32%;
+    margin-right:14px;
+    border: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.news-tab-list-secondLi>ol>li:last-child{
+    margin-right: 0;
+}
+.news-tab-list-secondLi>ol>li>dt{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.news-tab-list-secondLi>ol>li>dt img{
+    width: 282px;
+    transition: all 1s;
+}
+.news-tab-list-secondLi>ol>li>dl:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+.news-tab-list-secondLi>ol>li>dl:nth-child(2):hover{
+    color: blue;
+}
+.textright{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.bg-img1{
+    background: url("../img/icon_16_news_black_e87600.png") no-repeat;
+}
+.bg-img2{
+    background: url("../img/icon_16_pic_black_57c359.png") no-repeat;
+}
+.moreNews{
+    text-align: center;
+    background-color: #F0F0F0;
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+}
+.moreNews:hover{
+    background-color: #2464B5;
+}
+.moreNews>a{
+    color: #2464B5;
+    display: inline-block;
+    padding-top: 4px;
+    font-size:12px ;
+    line-height:14px;
+}
+.moreNews img{
+    position: absolute;
+    top: 8px;
+    vertical-align: text-bottom;
+}
+.team-rank{
+    width: 300px;
+    height: 740px;
+}
+.team-rank ul{
+    width: 100%;
+}
+.team-rank ul li{
+    height: 40px;
+    background: #EEEEEE;
+}
+.team-rank ul button{
+    display: block;
+    float: left;
+    height: 40px;
+    width: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.clicked{
+    background: #2464B5;
+    color: white;
+}
+.team-rank ul li img{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.team-rank ul li a{
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    width: 50%;
+    float: left;
+    padding: 10px 20px;
+    color: black;
+}
+.active{
+    color: red;
+    border-bottom: 4px solid red;
+}
+.span{
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+    width: 80%;
+    padding: 0 2px;
+}
+#team-rank{
+    width: 300px;
+}
+.thead{
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+}
+#team-rank tbody{
+    width: 300px;
+}
+.tr{
+    font-size: 12px;
+    box-sizing: border-box;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+.sectab{
+    color: #2464B5;
+}
+.sectab:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.gray{
+    background: #F4F4F4;
+}
+#team-rank tr:hover{
+    background: #E0E0E0;
+}
+#videos{
+    width: 1200px;
+    margin: auto;
+}
+.video-nav{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #E5E5E5;
+    padding-right: 20px;
+}
+.video-nav:after{
+    content: '';
+    height: 0px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.news-tab:after{
+    content: '';
+    height: 0px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.video-nav b{
+    width: 140px;
+    color: #2464b5;
+    font-size: 22px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    background: url("../img/video-title-ico_e7ef81.png") no-repeat 10px;
+}
+.video-nav li{
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 3px solid transparent;
+    text-align: center;
+    width: 120px;
+}
+.video-nav li:hover{
+    color:#E11647;
+    cursor: pointer;
+}
+.video-nav .selected{
+    border-bottom: 3px solid #E11647;
+    color: #E11647;
+}
+.video-details{
+    position: relative;
+    overflow: hidden;
+    width: 1200px;
+    height: 500px;
+}
+.first_p{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.second_p{
+    position: absolute;
+    top: 250px;
+    left:0
+
+}
+.video-details:after{
+    content: "";
+    height: 0px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+#ad>li h3{
+    background: url(../img/mask-bg_f650a0.png) no-repeat;
+}
+.video-details>p>a{
+    position: relative;
+    display: block;
+    width: 285px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+}
+.margin-r15{
+    margin-right: 15px;
+}
+.video-details>p img{
+    width: 285px;
+    height: 203px;
+    transition: all 1s;
+}
+.video-details span{
+    margin-top: 12px;
+    display: block;
+    color: black;
+    width: 285px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.video-details b{
+    position: absolute;
+    top: 163px;
+    left: 0;
+    padding: 20px 13px 0 0;
+    width: 272px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+    background: url(../img/mask-bg_f650a0.png) no-repeat;
+}
+.video-details>p{
+    height: 250px;
+    transition: all 0.2s;
+}
+.prev2{
+     position: absolute;
+     top: 211px;
+     left: 0;
+     display: none;
+ }
+.prev2:hover{
+    background: black;
+}
+.next2{
+    position: absolute;
+    top: 211px;
+    left: 1155px;
+}
+.next2:hover{
+    background: black;
+}
+.special-topic-container>div>ul{
+    width: 75%;
+}
+.special-topic-container>div>ul>li{
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.bottom-img{
+    position: absolute;
+    top: 82%;
+    left: 0%;
+}
+.special-topic-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.special-topic-container>h2{
+    height: 41px;
+    line-height: 41px;
+    font-size: 22px;
+    color: #2464B5;
+    border-bottom: 1px solid #E1E1E1;
+    margin-bottom: 30px;
+}
+.survy{
+    width: 285px;
+    margin-right: 15px;
+    margin-bottom: 18px;
+}
+.survy h5{
+    height: 30px;
+    line-height: 30px;
+}
+#survy{
+    width: 285px;
+    height: 285px;
+    padding: 15px;
+    background-color:#F7F7F7 ;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+.survy>p{
+    box-sizing: border-box;
+    padding-left:15px;
+    font-size: 16px;
+    height:40px;
+    line-height: 40px;
+    background: #2464B5;
+    color: white;
+}
+#survy [value='提交']{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #2464B5;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-top: 130px;
+}
+#survy [value='提交']:hover{
+    background-color: #0088E6;
+}
+#survy [value='查看']{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    background-color: #E5E5E5;
+    outline: none;
+    border: none;
+    color: #000;
+}
+#survy [value='查看']:hover{
+    background-color: #9E9E9E;
+}
+[name="able"]{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.nba-partner{
+    clear: both;
+    padding:0;
+    font-size: 12px;
+    text-align: center;
+}
+.nba-partner>h3{
+    border-bottom: 1px solid #E1E1E1;
+    height: 40px;
+    line-height: 40px;
+}
+.partner-channel{
+    font-size: 12px;
+}
+.partners-list a{
+    margin: 0;
+    padding: 0;
+}
+#social-media-list{
+    width: 100%;
+    text-align: center;
+}
+#social-media-list:after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+#social-media-list li{
+    padding: 1px;
+    display: block;
+    float: left;
+    width: 12.5%;
+    height: 78px;
+    line-height: 78px;
+    box-sizing: border-box;
+    border: 1px solid #E6E6E6;
+    border-radius: 2px;
+    white-space: nowrap;
+    position: relative;
+}
+#social-media-list li>img{
+    position: absolute;
+    height:0;
+    width: 134px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 1s;
+}
+#social-media-list li>a{
+    position: relative;
+    background-color: white;
+    color: black;
+    display: block;
+    font-size: 14px;
+    z-index: 3;
+}
+#social-media-list img{
+    height: 44px;
+    width: 44px;
+    vertical-align: middle;
+}
